@@ -1,0 +1,439 @@
+/* menubar-Part */
+.container{
+    max-width: 1434px;
+    margin: 0 auto;
+}
+
+.menu{
+    background: transparent;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: center;
+    width: 63%;
+    margin-top: 15px;
+}
+
+.menu-item a{
+    display: inline-block;
+    font-family: 'Hind', sans-serif; /* eta google font theke copy */
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 35px !important;
+}
+
+.menu-item a:hover{
+    background-color: transparent !important;
+    color: #05297F !important;
+}
+
+.navicon{
+    margin-top: 30px;
+}
+
+.icon{
+    font-size: 25px;
+    margin-left: 30px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.icon:hover{
+    color: #05297F;
+}
+
+.round{
+    display: inline-block;
+
+    /* britto create */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #05297F;
+
+    /* nirdisto place e set up */
+    position: absolute;
+    top: 44px;
+    right: -7px;
+    border: 2px solid #fff;
+
+    /* text britter vitor nirdisto place e set up */
+    font-family: 'Hind', sans-serif; /* eta google font theke copy */
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+
+/* banner-Part / Video: 5 */
+
+.sliderItem{
+    background-color: transparent;
+}
+
+.custom-slider{
+    margin-top: 25px;
+}
+
+.rs-carousel {
+    height: auto;
+}
+
+.bannerimg{
+    height: 100%;
+    padding: 300px 0;
+}
+
+.bannerimg h3{
+    font-family: 'Hind', sans-serif; 
+    font-size: 20px;
+    font-weight: 700;
+    color: #05297F;
+}
+
+.bannerimg h1{
+    font-family: 'Hind', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #252525;
+    width: 789px;
+    line-height: 80px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.bannerimg button{
+    width: 10%;
+    padding: 15px 18px;
+    background: #05297F;
+    font-family: 'Hind', sans-serif; 
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 31px;
+}
+
+.rs-carousel-shape-dot .rs-carousel-label {
+    background: #B1B1B1;
+    width: 16px;
+    height: 16px;
+}
+
+.rs-carousel-label-wrapper input:checked~label {
+    background-color: #FC9D9D !important;
+    width: 22px;
+    height: 22px;
+}
+
+
+
+/* Deal-Part / Video: 6 */
+
+.rs-grid-container {
+    width: 1434px;
+}
+
+.dealbox{
+    width: 692px;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 143px 52px;
+}
+
+.deal-part{
+    margin-top: 111px;
+}
+
+.deal-part h3{
+    font-family: 'Hind';
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #05297F;
+}
+
+.deal-part h1{
+    font-family: 'Hind';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    width: 270px;
+    height: 84px;
+    margin-top: 10px;
+    color: #252525;
+}
+
+.deal-part button{
+    font-family: 'Hind';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 12px;
+    position: absolute;
+    background: #FC9D9D;
+    border-radius: 50px;
+    color: #fff;
+    padding: 6px 10px;
+    width: 80px;
+    margin-top: 30px;
+}
+
+.deal-part .dealbtn1{
+    background: #05297F;
+}
+
+.deal-part .dealtext1{
+    color: #252525;
+}
+
+
+
+/* Topproducts-Part 1 / Video: 7 */
+
+.topproduct{
+    margin-top: 100px;
+}
+
+.topproduct h2{
+    font-family: 'Hind', sans-serif; 
+    font-size: 54px;
+    font-weight: 700;
+    color: #252525;
+    text-transform: uppercase;
+}
+
+.topproduct ul{
+    list-style: none;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.topproduct ul li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 49px;
+    font-family: 'Hind', sans-serif; 
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #252525;
+    position: relative;
+}
+
+.topproduct ul li span {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: #FC9D9D;
+    border-radius: 50%;
+    position: absolute;
+    top: 48%;
+    left: -7px;
+    transform: translateY(50);
+    transition: .4s;
+}
+
+.topproduct ul li:hover span{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/* Topproducts-Part -2 / Video: 8 */
+
+.topproduct .rs-panel-header {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.topproduct .rs-panel-header+.rs-panel-body, .rs-panel-header+.rs-panel-collapse .rs-panel-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+/* Topproducts-Part -3 / Video: 9 */
+
+.singleproduct{
+    margin-top: 40px;
+}
+.productbox{
+    display: flex;
+    justify-content: space-between;
+}
+.productbox .brand p{
+    margin-top: 28px;
+    font-family: 'Hind', sans-serif; 
+    font-size: 14px;
+    font-weight: 300;
+    color: #B1B1B1;
+}
+
+.productbox .star-icon{
+    color: #FFBD69;
+    font-size: 16px;
+    margin-top: 28px;
+    margin-right: 5px;
+}
+.rs-panel-header {
+    font-family: 'Hind';
+    font-weight: 400;
+    font-size: 20px;
+    color: #252525;
+}
+.productColor{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 13px;
+    border-radius: 50%;
+}
+.productsize span{
+    font-family: 'Hind', sans-serif; 
+    font-size: 14px;
+    font-weight: 300;
+    color: #252525;
+    margin-left: 11px;
+}
+.cart{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background: #FC9D9D;
+    border-radius: 50%;
+    margin-top: 22px;
+    text-align: center;
+    position: relative;
+}
+.cart .productcart{
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.productprice {
+    font-family: 'Hind', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #303960;
+    position: relative;
+    top: -13px;
+    left: 10px;
+}
+
+
+/* Topproducts-Part -4 / Video: 10 */
+.productbox .productColor{
+    cursor: pointer;
+}
+.productbox .activeColor{
+    border: 2px solid #C4C4C4;
+}
+.productbox .productSize{
+    cursor: pointer;
+}
+.productbox .productActivesize{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+    background: #F1F1F1;
+    text-align: center;
+}
+
+/* nije korchi */
+.middle{
+    height: 500px;
+    margin-top: 122px;
+    margin-bottom: 120px;
+    padding: 155px 244px;
+}
+.middle h3{
+    font-family: 'Hind';
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    color: #252525;
+    width: 60%;
+}
+.middle button{
+    position: absolute;
+    width: 168px;
+    height: 48px;
+    border-radius: 50px;
+    background: #05297F;
+    font-family: 'Hind';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+/* featureProduct  Video: 12 */
+.featureProduct{
+    margin-top: 100px;
+}
+.featureProduct .rs-grid-container {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.featureProduct .box{
+    padding-bottom: 140px;
+    padding-left: 40px;
+}
+.featureProduct h2{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #252525;
+    width: 260px;
+    margin-bottom: 18px;
+}
+.featureProduct h1{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #252525;
+    width: 612px;
+}
+.featureProduct button{
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    background: #05297F;
+    border-radius: 50px;
+    font-family: 'Hind';
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.featureProduct .rs-panel-header {
+    font-family: 'Hind';
+    font-weight: 400;
+    font-size: 20px;
+    color: #252525;
+    padding-left: 0;
+}
+.featureProduct .rs-panel-header+.rs-panel-body, .rs-panel-header+.rs-panel-collapse .rs-panel-body {
+    padding-top: 0;
+    padding-left: 0;
+}
